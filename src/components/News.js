@@ -41,7 +41,6 @@ const News = (props) => {
 
   return (
     <div>
-      <Spinner />
       <InfiniteScroll
         dataLength={articles.length}
         next={fetchData}
